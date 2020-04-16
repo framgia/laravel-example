@@ -13,4 +13,4 @@
 |
 */
 
-
+Route::middleware('auth:api')->get('/user', 'UserController@AuthRouteAPI');
