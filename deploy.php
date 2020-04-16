@@ -7,7 +7,7 @@ require 'recipe/laravel.php';
 set('application', 'zero_downtime_deploy');
 
 // Project repository
-set('repository', 'git@github.com:framgia/sun-newCD.git');
+set('repository', 'git@github.com:framgia/laravel-example.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', false);
